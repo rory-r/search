@@ -15,7 +15,7 @@ Arguments:
     -o    output directory
     -p    number of pages
 
-## ElasticSearch
+## Indexer
 Fill out elasticsearch.txt with the following:
 >username:password\
 >deploymenturl
