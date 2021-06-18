@@ -1,0 +1,60 @@
+body
+{
+    height:97vh;
+    background: radial-gradient(ellipse at center, #116fdb 0%,#004b85 100%);
+}
+input
+{
+    position:absolute;
+    width:33vw;
+    font-size:14pt;
+    padding: 9px;
+    padding-left:30px;
+}
+h1{
+    color:#fdff88;
+    font-size:60pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom:0px;
+    width:100%
+}
+#searchdiv
+{
+    position: absolute;
+    left: 33%;
+    top: 25%;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#searchbar
+{
+    display:flex;
+    align-items: center; 
+    width:100%
+}
+svg
+{
+    pointer-events: none;
+    height:25px;
+    z-index: 1;
+    position: relative;
+    right: -5px;
+}
+#icon{
+    fill:rgb(172, 172, 172);
+}
+#credit{
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    font-size:10pt;
+}
+#results{
+    font-size:14pt;
+    position:absolute;
+    top:60%;
+    left: 12%;
+    width:75%;
+    background:white;
+}
